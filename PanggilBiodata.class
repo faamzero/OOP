@@ -1,0 +1,20 @@
+/**
+ *
+ * @author FaAmZero
+ */
+public class PanggilBiodata {
+    
+    public static void main(String args[]) {
+        System.out.println("Selamat datang di Java");
+        System.out.println("=======================");
+
+        biodata mhs = new biodata();
+        
+
+        System.out.println(mhs.info());
+        System.out.println("===================");
+        mhs.print();
+        
+    }
+}
+
